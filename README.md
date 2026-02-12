@@ -33,6 +33,8 @@ Internamente en C, esto se maneja mediante un arreglo de cadenas (`char **args`)
 | `tiempo` | Ninguno | Muestra la fecha y hora actual del sistema. | `tiempo` |
 | `calc` | `<n1> <op> <n2>` | Realiza operaciones aritméticas (+, -, *, /). | `calc 10 * 2.5` |
 | `ayuda` | Ninguno | Muestra la lista de comandos disponibles. | `ayuda` |
+| `historial` | Ninguno | Muestra los últimos 10 comandos ejecutados. | `historial` |
+| `limpiar` | Ninguno | Limpia la pantalla de la terminal. | `limpiar` |
 | `salir` | Ninguno | Termina la sesión de EAFITos. | `salir` |
 
 ## 🛠️ Estructura del Proyecto
